@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col">
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -313,6 +313,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container{
+  overflow: hidden;
+}
 li a{
   color: #000;
 }
