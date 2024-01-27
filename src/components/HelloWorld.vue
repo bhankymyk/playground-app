@@ -399,4 +399,9 @@ li {
   text-align: start;
   margin-left: 70px;
 }
+@media only screen and (max-width: 767px ) {
+  .org{
+  margin-top: 5rem;
+}
+}
 </style>
