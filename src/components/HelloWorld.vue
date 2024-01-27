@@ -6,7 +6,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <div>
-        <img src="../assets/Logo.png" alt=""> Landify
+        <img src="../assets/logo.png" alt=""> Landify
       </div>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,7 +126,7 @@
               <p>Get inspired by these stories.</p>
             </div>
             <div class="row">
-              <div class="col-md-3 bg-light me-5 mb-5 ms-5">
+              <div class="col-md-3 bg-light me-5 mb-5 ms-3">
                 <img src="../assets/Hubspot Logo.png" class="img-fluid" alt="">
                 <p>To quickly start my startup <br>
                   landing page design, I was <br>
@@ -268,7 +268,7 @@
                 <div class="row bg-dark">
                   <div class="col-md-8 mt-5 footer text-start">
                     <ul>
-                      <li><img src="../assets/Logo.png" alt=""></li>
+                      <li><img src="../assets/logo.png" alt=""></li>
                     </ul>
                       <ul>
                         <li>Download Now</li>
@@ -333,6 +333,11 @@ h1 {
 }
 .Testimonial{
   background: rgba(213, 250, 252, 1);
+}
+.Testimonial h2{
+  color: #000;
+  font-weight: 600;
+  font-size: 40px;
 }
 .Testimonial8 h5{
   color: #000;
