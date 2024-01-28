@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-      <div class="row">
+
+      <div class="row heros">
         <div class="col">
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -49,7 +50,6 @@
   </div>
 </nav>
         </div>
-      </div>
 
         <div class="row hero">
           <div class="col-md-6 org text-start">
@@ -57,11 +57,12 @@
             <button class="btn btns">Get Started</button>
           </div>
           <div class="col-md-6 iPhone">
-            <img src="../assets/iPhone X.png" class="img-fluid" alt="">
+            <img src="../assets/iPhone X.png" class="img-fluid w-50" alt="">
           </div>
         </div>
-
-        <div class="row">
+      </div>
+        <hr>
+        <div class="row mt-3">
           <div class="col"><img src="../assets/Airbnb Logo.png"  class="img-fluid" alt=""></div>
           <div class="col"><img src="../assets/Hubspot Logo.png" class="img-fluid" alt=""></div>
           <div class="col"><img src="../assets/Google Logo.png" class="img-fluid" alt=""></div>
@@ -69,8 +70,8 @@
           <div class="col"><img src="../assets/Walmart Logo.png" class="img-fluid" alt=""></div>
           <div class="col"><img src="../assets/FedEx Logo.png" class="img-fluid" alt=""></div>
         </div>
-        
-        <div class="row mt-5">
+        <hr>
+        <div class="row mt-5 Tfeat">
           <div class="col">
             <h2>Tailor made features</h2>
             <p>Lorem ipsum is common placeholder text used to demonstrate <br>
@@ -78,7 +79,7 @@
             </div>
           </div>
 
-          <div class="row mt-5">
+          <div class="row mt-5 feat5">
             <div class="col-md-4">
               <img src="../assets/01.png"  class="img-fluid mb-3" alt="">
               <h5>Robust workflow</h5>
@@ -87,7 +88,7 @@
             </div>
             <div class="col-md-4">
               <img src="../assets/02.png" class="img-fluid mb-3" alt="">
-              <h5>Flexibity</h5>
+              <h5>Flexibility</h5>
               <p>Lorem ipsum dolor sit amet, consectetur <br>
                  adipiscing elit. Sed erat nibh tristique ipsum.</p>
             </div>
@@ -99,7 +100,7 @@
             </div>
           </div>
 
-          <div class="row mt-5">
+          <div class="row mt-5 feat5">
             <div class="col-md-4">
               <img src="../assets/04.png"  class="img-fluid mb-3" alt="">
               <h5>Multiple Layout</h5>
@@ -122,7 +123,7 @@
           
           <div class="row Testimonial">
             <div class="col mt-5">
-              <h2>Real Customers Real Peolple</h2>
+              <h2>Real Stories from <br>Real Customers</h2>
               <p>Get inspired by these stories.</p>
             </div>
             <div class="row">
@@ -170,19 +171,19 @@
                   <div class="col-md-4">
                     <img src="../assets/Video Cover (3).png" class="img-fluid mb-3" alt="">
                     <h5>Review by Michelle Hyatt</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing
                       elit. Risus, sit imperdiet risus, venenatis at.</p>
                   </div>
                   <div class="col-md-4">
                     <img src="../assets/Video Cover (2).png" class="img-fluid mb-3" alt="">
                     <h5>Review by Angie Bellemare</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing
                       elit. Risus, sit imperdiet risus, venenatis at.</p>
                   </div>
                   <div class="col-md-4">
                     <img src="../assets/Video Cover.png" class="img-fluid mb-3" alt="">
                     <h5>Review by Brittany Nichole</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing
                       elit. Risus, sit imperdiet risus, venenatis at.</p>
                   </div>
                 </div>
@@ -195,11 +196,11 @@
                 </div>
                 <div class="col-md">
                   <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md">
                      <p> <img src="../assets/01.png"  class="img-fluid mb-3" alt="">
                       10000+ <br> Downloads per day  </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md">
                      <p> <img src="../assets/04.png"  class="img-fluid mb-3" alt="">  2Million <br> Users</p>
                     </div>
                   </div>
@@ -224,7 +225,7 @@
                   <div class="col-md-6 Headline">
                     <h3>Headline</h3>
                     <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</h6>
-                      Get Started
+                      <p>Get Started <img src="../assets/Vector.png" alt=""></p>
                   </div>
               </div>
 
@@ -232,7 +233,7 @@
                 <div class="col-md-6 text-center features">
                   <h3>Enter the world of all <br> fashion trends</h3>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 sub-features">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
                     Venenatis scelerisque at quam congue posuere libero in sit <br>
                      quam. Consequat, scelerisque non tincidunt sit lectus senectus.</p>
@@ -251,7 +252,7 @@
                     <p class="text-start">Download the app to manage your projects, keep track <br> of the 
                        progress and complete tasks without <br> procastinating.  Stay on
                         track and complete on time!</p>
-                    <div class="div text-start mt-5 mb-5">
+                    <div class="div text-start mt-5 mb-5 sub-project">
                       <h5>Get the App</h5> 
                       <img src="../assets/Google Play Badge.png" class="img-fluid" alt="">
                       <img src="../assets/App Store BadgeApple.png" class="img-fluid" alt="">
@@ -324,8 +325,12 @@ li a{
   color: rgba(255, 255, 255, 1);
 }
 .org{
-  margin-top: 15rem;
+  margin-top: 9rem;
+  padding: 20px;
 }
+/* .org h1{
+  padding: 20px; */
+/* } */
 .iPhone{
   margin-top: 7rem;
 }
@@ -342,6 +347,11 @@ h1 {
   font-weight: 600;
   font-size: 40px;
 }
+.Testimonial8 h2{
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+}
 .Testimonial8 h5{
   color: #000;
   font-weight: 600;
@@ -350,7 +360,7 @@ h1 {
 .Testimonial8 p{
   font-weight: 400;
   color: #000;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .stats h2{
   font-weight: 600;
@@ -363,10 +373,23 @@ h1 {
 }
 .Headline{
   margin-top: 10rem;
-  text-align: start;
 }
 .Headline h3{
+  text-align: start;
   font-weight: 800;
+  padding: 20px;
+  font-size: 40px;
+}
+.Headline h6{
+  padding: 20px;
+  text-align: start;
+}
+.Headline p {
+  color: rgba(140, 48, 245, 1);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: start;
+  padding: 20px;
 }
 .project{
   background: rgba(46, 197, 206, 1);
@@ -376,7 +399,14 @@ h1 {
   font-size: 30px;
   font-weight: 800;
   color: #000;
+  padding: 20px;
 } 
+.project p{
+  padding: 20px;
+}
+.sub-project h5{
+  padding: 20px;
+}
 ul li {
   list-style: none;
 }
@@ -398,10 +428,47 @@ li {
   color: #000;
   text-align: start;
   margin-left: 70px;
+  padding: 20px;
 }
+.sub-features p{
+  padding: 50px;
+  text-align: start;
+}
+.heros{
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+  background-position: center;
+}
+.Tfeat h2{
+font-weight: 800;
+font-size: 30px;
+}
+.feat5 h5{
+font-weight: 600;
+font-size: 24px;
+/* padding: 20px; */
+}
+.feat5 p{
+  padding: 7px;
+}
+
+
+/* Screen Size */
 @media only screen and (max-width: 767px ) {
   .org{
   margin-top: 5rem;
 }
+li {
+  display: block;
+}
+.features h3 {
+  margin-left: 3px;
+}
+/* .second-footer ul li{
+  display: inline;
+} */
+
+
+
 }
 </style>
